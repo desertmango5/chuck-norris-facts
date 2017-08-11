@@ -10,7 +10,7 @@ $(document).ready(function() {
 	var quote = {
 
 		setup: function() {
-			$.getJSON('http://api.icndb.com/jokes/random/', function(data) {
+			$.getJSON('https://api.icndb.com/jokes/random/', function(data) {
 					var quoteData = data.value.joke;
 					$('#quote').html(quoteData);
 					
